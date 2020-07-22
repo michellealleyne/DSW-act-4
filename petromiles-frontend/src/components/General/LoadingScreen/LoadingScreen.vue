@@ -1,7 +1,7 @@
 <template>
     <v-row>
       <v-col>
-        <v-overlay :value="visible">
+        <v-overlay :value="visible" id="spinnerCarga">
           <v-progress-circular indeterminate size="64"></v-progress-circular>
         </v-overlay>
       </v-col>
